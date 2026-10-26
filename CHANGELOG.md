@@ -30,6 +30,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Fixed
 
+- Debug builds with Visual Studio 2026 (MSVC 14.5x): its standard library no longer has `stdext::checked_array_iterator`
 - `adjd<T, N>::active_type` is `ARealDirect<T, N>`, as documented
 - `std::numeric_limits` for direct mode types returned 0
 - Direct mode comparisons with integer literals and convertible types
